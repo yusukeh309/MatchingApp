@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */; };
 		7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */; };
 		7C511E8225BEE36000D24A83 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8125BEE36000D24A83 /* RxSwift */; };
 		7C511E8425BEE36000D24A83 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8325BEE36000D24A83 /* RxCocoa */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
 		7C63C66E25BD802600350937 /* UIImage-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-Extension.swift"; sourceTree = "<group>"; };
 		7C8F675725BD7B4E006DBE6F /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				7C63C66E25BD802600350937 /* UIImage-Extension.swift */,
+				7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */,
 				7CD14F5525BD636300C4F9E3 /* HomeViewController.swift in Sources */,
 				7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */,
+				7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */,
 				7CD14F5325BD636300C4F9E3 /* SceneDelegate.swift in Sources */,
 				7C8F675825BD7B4E006DBE6F /* BottomControlView.swift in Sources */,
 				7C63C66F25BD802600350937 /* UIImage-Extension.swift in Sources */,
