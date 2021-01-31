@@ -21,6 +21,9 @@
 		7CD14F5A25BD636400C4F9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD14F5925BD636400C4F9E3 /* Assets.xcassets */; };
 		7CD14F5D25BD636400C4F9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD14F5B25BD636400C4F9E3 /* LaunchScreen.storyboard */; };
 		7CE875FF25C5830300E80B69 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE875FE25C5830300E80B69 /* UIColor-Extension.swift */; };
+		7CE8761E25C6A74000E80B69 /* CardInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8761D25C6A74000E80B69 /* CardInfoLabel.swift */; };
+		7CE8762125C6AC3000E80B69 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8762025C6AC3000E80B69 /* UIButton-Extension.swift */; };
+		7CE8762425C6ACAE00E80B69 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8762325C6ACAE00E80B69 /* CardImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		7CD14F5C25BD636400C4F9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CD14F5E25BD636400C4F9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE875FE25C5830300E80B69 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		7CE8761D25C6A74000E80B69 /* CardInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoLabel.swift; sourceTree = "<group>"; };
+		7CE8762025C6AC3000E80B69 /* UIButton-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		7CE8762325C6ACAE00E80B69 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 				7C63C66E25BD802600350937 /* UIImage-Extension.swift */,
 				7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */,
 				7CE875FE25C5830300E80B69 /* UIColor-Extension.swift */,
+				7CE8762025C6AC3000E80B69 /* UIButton-Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -77,6 +84,8 @@
 				7C8F675725BD7B4E006DBE6F /* BottomControlView.swift */,
 				7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */,
 				7C450CDD25C2D3C200088881 /* CardView.swift */,
+				7CE8761D25C6A74000E80B69 /* CardInfoLabel.swift */,
+				7CE8762325C6ACAE00E80B69 /* CardImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,12 +200,15 @@
 			files = (
 				7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */,
 				7CD14F5525BD636300C4F9E3 /* HomeViewController.swift in Sources */,
+				7CE8761E25C6A74000E80B69 /* CardInfoLabel.swift in Sources */,
 				7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */,
 				7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */,
 				7CE875FF25C5830300E80B69 /* UIColor-Extension.swift in Sources */,
+				7CE8762125C6AC3000E80B69 /* UIButton-Extension.swift in Sources */,
 				7CD14F5325BD636300C4F9E3 /* SceneDelegate.swift in Sources */,
 				7C8F675825BD7B4E006DBE6F /* BottomControlView.swift in Sources */,
 				7C450CDE25C2D3C200088881 /* CardView.swift in Sources */,
+				7CE8762425C6ACAE00E80B69 /* CardImageView.swift in Sources */,
 				7C63C66F25BD802600350937 /* UIImage-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
