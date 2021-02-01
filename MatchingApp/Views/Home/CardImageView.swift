@@ -15,7 +15,7 @@ class CardImageView: UIImageView {
         backgroundColor = .blue
         layer.cornerRadius = 10
         contentMode = .scaleAspectFill
-        image = UIImage(named: "test-image2")
+        image = UIImage(named: "test-image")
         clipsToBounds = true
     }
     

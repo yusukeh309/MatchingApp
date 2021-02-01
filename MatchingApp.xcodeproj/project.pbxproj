@@ -13,6 +13,9 @@
 		7C511E8225BEE36000D24A83 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8125BEE36000D24A83 /* RxSwift */; };
 		7C511E8425BEE36000D24A83 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8325BEE36000D24A83 /* RxCocoa */; };
 		7C511E8625BEE36000D24A83 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8525BEE36000D24A83 /* RxRelay */; };
+		7C617BC525C81DCE00D4F32F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */; };
+		7C617BD525C820AD00D4F32F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C617BD425C820AD00D4F32F /* RegisterViewController.swift */; };
+		7C617BDA25C823A800D4F32F /* RegisterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C617BD925C823A800D4F32F /* RegisterTextField.swift */; };
 		7C63C66F25BD802600350937 /* UIImage-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63C66E25BD802600350937 /* UIImage-Extension.swift */; };
 		7C8F675825BD7B4E006DBE6F /* BottomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F675725BD7B4E006DBE6F /* BottomControlView.swift */; };
 		7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD14F5025BD636300C4F9E3 /* AppDelegate.swift */; };
@@ -24,12 +27,16 @@
 		7CE8761E25C6A74000E80B69 /* CardInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8761D25C6A74000E80B69 /* CardInfoLabel.swift */; };
 		7CE8762125C6AC3000E80B69 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8762025C6AC3000E80B69 /* UIButton-Extension.swift */; };
 		7CE8762425C6ACAE00E80B69 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8762325C6ACAE00E80B69 /* CardImageView.swift */; };
+		C0CD91EFDDC0780F05D0DC75 /* Pods_MatchingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD8D7E803C2FA04F95C11B /* Pods_MatchingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		7C450CDD25C2D3C200088881 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
+		7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C617BD425C820AD00D4F32F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7C617BD925C823A800D4F32F /* RegisterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTextField.swift; sourceTree = "<group>"; };
 		7C63C66E25BD802600350937 /* UIImage-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-Extension.swift"; sourceTree = "<group>"; };
 		7C8F675725BD7B4E006DBE6F /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
 		7CD14F4D25BD636300C4F9E3 /* MatchingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +50,9 @@
 		7CE8761D25C6A74000E80B69 /* CardInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoLabel.swift; sourceTree = "<group>"; };
 		7CE8762025C6AC3000E80B69 /* UIButton-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
 		7CE8762325C6ACAE00E80B69 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		92DEA82A58E4164A02FF115E /* Pods-MatchingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchingApp.debug.xcconfig"; path = "Target Support Files/Pods-MatchingApp/Pods-MatchingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBD8D7E803C2FA04F95C11B /* Pods_MatchingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45FA06D328E3E9B99F4EBC6 /* Pods-MatchingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchingApp.release.xcconfig"; path = "Target Support Files/Pods-MatchingApp/Pods-MatchingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +63,50 @@
 				7C511E8625BEE36000D24A83 /* RxRelay in Frameworks */,
 				7C511E8425BEE36000D24A83 /* RxCocoa in Frameworks */,
 				7C511E8225BEE36000D24A83 /* RxSwift in Frameworks */,
+				C0CD91EFDDC0780F05D0DC75 /* Pods_MatchingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49E9153D0DAD97BADD017D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD8D7E803C2FA04F95C11B /* Pods_MatchingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77F1E4DE2E01B6CE4809D913 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92DEA82A58E4164A02FF115E /* Pods-MatchingApp.debug.xcconfig */,
+				E45FA06D328E3E9B99F4EBC6 /* Pods-MatchingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C617BD725C8238700D4F32F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7C8F675725BD7B4E006DBE6F /* BottomControlView.swift */,
+				7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */,
+				7C450CDD25C2D3C200088881 /* CardView.swift */,
+				7CE8761D25C6A74000E80B69 /* CardInfoLabel.swift */,
+				7CE8762325C6ACAE00E80B69 /* CardImageView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7C617BD825C8239300D4F32F /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				7C617BD925C823A800D4F32F /* RegisterTextField.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 		7C63C67125BD802B00350937 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				7CD14F5425BD636300C4F9E3 /* HomeViewController.swift */,
+				7C617BD425C820AD00D4F32F /* RegisterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -81,11 +130,8 @@
 		7C8F675625BD7B3E006DBE6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7C8F675725BD7B4E006DBE6F /* BottomControlView.swift */,
-				7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */,
-				7C450CDD25C2D3C200088881 /* CardView.swift */,
-				7CE8761D25C6A74000E80B69 /* CardInfoLabel.swift */,
-				7CE8762325C6ACAE00E80B69 /* CardImageView.swift */,
+				7C617BD825C8239300D4F32F /* Register */,
+				7C617BD725C8238700D4F32F /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +141,8 @@
 			children = (
 				7CD14F4F25BD636300C4F9E3 /* MatchingApp */,
 				7CD14F4E25BD636300C4F9E3 /* Products */,
+				77F1E4DE2E01B6CE4809D913 /* Pods */,
+				49E9153D0DAD97BADD017D18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +163,7 @@
 				7CD14F5025BD636300C4F9E3 /* AppDelegate.swift */,
 				7CD14F5225BD636300C4F9E3 /* SceneDelegate.swift */,
 				7CD14F5925BD636400C4F9E3 /* Assets.xcassets */,
+				7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */,
 				7CD14F5B25BD636400C4F9E3 /* LaunchScreen.storyboard */,
 				7CD14F5E25BD636400C4F9E3 /* Info.plist */,
 			);
@@ -128,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CD14F6125BD636400C4F9E3 /* Build configuration list for PBXNativeTarget "MatchingApp" */;
 			buildPhases = (
+				D3B7B32D6A95BC76D4AD3397 /* [CP] Check Pods Manifest.lock */,
 				7CD14F4925BD636300C4F9E3 /* Sources */,
 				7CD14F4A25BD636300C4F9E3 /* Frameworks */,
 				7CD14F4B25BD636300C4F9E3 /* Resources */,
+				9E98F1D05DB1904B963F6E87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,10 +239,53 @@
 			files = (
 				7CD14F5D25BD636400C4F9E3 /* LaunchScreen.storyboard in Resources */,
 				7CD14F5A25BD636400C4F9E3 /* Assets.xcassets in Resources */,
+				7C617BC525C81DCE00D4F32F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E98F1D05DB1904B963F6E87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchingApp/Pods-MatchingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchingApp/Pods-MatchingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchingApp/Pods-MatchingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B7B32D6A95BC76D4AD3397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MatchingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CD14F4925BD636300C4F9E3 /* Sources */ = {
@@ -208,6 +302,8 @@
 				7CD14F5325BD636300C4F9E3 /* SceneDelegate.swift in Sources */,
 				7C8F675825BD7B4E006DBE6F /* BottomControlView.swift in Sources */,
 				7C450CDE25C2D3C200088881 /* CardView.swift in Sources */,
+				7C617BDA25C823A800D4F32F /* RegisterTextField.swift in Sources */,
+				7C617BD525C820AD00D4F32F /* RegisterViewController.swift in Sources */,
 				7CE8762425C6ACAE00E80B69 /* CardImageView.swift in Sources */,
 				7C63C66F25BD802600350937 /* UIImage-Extension.swift in Sources */,
 			);
@@ -345,6 +441,7 @@
 		};
 		7CD14F6225BD636400C4F9E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92DEA82A58E4164A02FF115E /* Pods-MatchingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -363,6 +460,7 @@
 		};
 		7CD14F6325BD636400C4F9E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45FA06D328E3E9B99F4EBC6 /* Pods-MatchingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
