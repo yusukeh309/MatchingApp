@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0CF4DE25D29C5700B26377 /* RegisterTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */; };
+		7C0CF4E525D2A15600B26377 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF4E425D2A15600B26377 /* RegisterButton.swift */; };
 		7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */; };
 		7C450CDE25C2D3C200088881 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C450CDD25C2D3C200088881 /* CardView.swift */; };
 		7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTitleLabel.swift; sourceTree = "<group>"; };
+		7C0CF4E425D2A15600B26377 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
 		7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		7C450CDD25C2D3C200088881 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				7C617BD925C823A800D4F32F /* RegisterTextField.swift */,
+				7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */,
+				7C0CF4E425D2A15600B26377 /* RegisterButton.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -292,8 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0CF4E525D2A15600B26377 /* RegisterButton.swift in Sources */,
 				7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */,
 				7CD14F5525BD636300C4F9E3 /* HomeViewController.swift in Sources */,
+				7C0CF4DE25D29C5700B26377 /* RegisterTitleLabel.swift in Sources */,
 				7CE8761E25C6A74000E80B69 /* CardInfoLabel.swift in Sources */,
 				7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */,
 				7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */,
