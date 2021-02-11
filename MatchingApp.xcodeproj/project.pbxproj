@@ -10,6 +10,7 @@
 		7C0CF4DE25D29C5700B26377 /* RegisterTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */; };
 		7C0CF4E525D2A15600B26377 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF4E425D2A15600B26377 /* RegisterButton.swift */; };
 		7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */; };
+		7C2A5B0D25D51BEA00985F7C /* RegiserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A5B0C25D51BEA00985F7C /* RegiserViewModel.swift */; };
 		7C450CDE25C2D3C200088881 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C450CDD25C2D3C200088881 /* CardView.swift */; };
 		7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */; };
 		7C511E8225BEE36000D24A83 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8125BEE36000D24A83 /* RxSwift */; };
@@ -36,6 +37,7 @@
 		7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTitleLabel.swift; sourceTree = "<group>"; };
 		7C0CF4E425D2A15600B26377 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
 		7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		7C2A5B0C25D51BEA00985F7C /* RegiserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiserViewModel.swift; sourceTree = "<group>"; };
 		7C450CDD25C2D3C200088881 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
 		7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 				E45FA06D328E3E9B99F4EBC6 /* Pods-MatchingApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C2A5B0B25D51BD600985F7C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7C2A5B0C25D51BEA00985F7C /* RegiserViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		7C617BD725C8238700D4F32F /* Home */ = {
@@ -165,6 +175,7 @@
 			children = (
 				7C63C67125BD802B00350937 /* Extensions */,
 				7C8F675625BD7B3E006DBE6F /* Views */,
+				7C2A5B0B25D51BD600985F7C /* ViewModel */,
 				7C8F675425BD7B11006DBE6F /* ViewControllers */,
 				7CD14F5025BD636300C4F9E3 /* AppDelegate.swift */,
 				7CD14F5225BD636300C4F9E3 /* SceneDelegate.swift */,
@@ -303,6 +314,7 @@
 				7CD14F5525BD636300C4F9E3 /* HomeViewController.swift in Sources */,
 				7C0CF4DE25D29C5700B26377 /* RegisterTitleLabel.swift in Sources */,
 				7CE8761E25C6A74000E80B69 /* CardInfoLabel.swift in Sources */,
+				7C2A5B0D25D51BEA00985F7C /* RegiserViewModel.swift in Sources */,
 				7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */,
 				7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */,
 				7CE875FF25C5830300E80B69 /* UIColor-Extension.swift in Sources */,
