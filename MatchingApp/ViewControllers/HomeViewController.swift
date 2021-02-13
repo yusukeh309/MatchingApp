@@ -12,6 +12,16 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupLayout()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            let registerController = RegisterViewController()
+            registerController.modalPresentationStyle = .fullScreen
+            self.present(registerController, animated: true)
+        }
+    }
+    
+    private func setupLayout() {
         view.backgroundColor = .white
         
         let topControlView = TopControlView()
@@ -35,7 +45,6 @@ class HomeViewController: UIViewController {
             .forEach { $0.isActive = true }
                 
         
-        // Do any additional setup after loading the view.
     }
 
 

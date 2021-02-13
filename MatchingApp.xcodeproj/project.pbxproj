@@ -10,12 +10,13 @@
 		7C0CF4DE25D29C5700B26377 /* RegisterTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */; };
 		7C0CF4E525D2A15600B26377 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF4E425D2A15600B26377 /* RegisterButton.swift */; };
 		7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */; };
+		7C2518FD25D7F48100AEA210 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C2518FC25D7F48100AEA210 /* RxSwift */; };
+		7C2518FF25D7F48100AEA210 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7C2518FE25D7F48100AEA210 /* RxCocoa */; };
+		7C25190125D7F48100AEA210 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7C25190025D7F48100AEA210 /* RxRelay */; };
+		7C25190425D7F90A00AEA210 /* Firebase-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25190325D7F90A00AEA210 /* Firebase-Extension.swift */; };
 		7C2A5B0D25D51BEA00985F7C /* RegiserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A5B0C25D51BEA00985F7C /* RegiserViewModel.swift */; };
 		7C450CDE25C2D3C200088881 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C450CDD25C2D3C200088881 /* CardView.swift */; };
 		7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */; };
-		7C511E8225BEE36000D24A83 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8125BEE36000D24A83 /* RxSwift */; };
-		7C511E8425BEE36000D24A83 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8325BEE36000D24A83 /* RxCocoa */; };
-		7C511E8625BEE36000D24A83 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7C511E8525BEE36000D24A83 /* RxRelay */; };
 		7C617BC525C81DCE00D4F32F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */; };
 		7C617BD525C820AD00D4F32F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C617BD425C820AD00D4F32F /* RegisterViewController.swift */; };
 		7C617BDA25C823A800D4F32F /* RegisterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C617BD925C823A800D4F32F /* RegisterTextField.swift */; };
@@ -37,6 +38,7 @@
 		7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTitleLabel.swift; sourceTree = "<group>"; };
 		7C0CF4E425D2A15600B26377 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
 		7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		7C25190325D7F90A00AEA210 /* Firebase-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase-Extension.swift"; sourceTree = "<group>"; };
 		7C2A5B0C25D51BEA00985F7C /* RegiserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiserViewModel.swift; sourceTree = "<group>"; };
 		7C450CDD25C2D3C200088881 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
@@ -66,9 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C511E8625BEE36000D24A83 /* RxRelay in Frameworks */,
-				7C511E8425BEE36000D24A83 /* RxCocoa in Frameworks */,
-				7C511E8225BEE36000D24A83 /* RxSwift in Frameworks */,
+				7C2518FF25D7F48100AEA210 /* RxCocoa in Frameworks */,
+				7C2518FD25D7F48100AEA210 /* RxSwift in Frameworks */,
+				7C25190125D7F48100AEA210 /* RxRelay in Frameworks */,
 				C0CD91EFDDC0780F05D0DC75 /* Pods_MatchingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +132,7 @@
 				7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */,
 				7CE875FE25C5830300E80B69 /* UIColor-Extension.swift */,
 				7CE8762025C6AC3000E80B69 /* UIButton-Extension.swift */,
+				7C25190325D7F90A00AEA210 /* Firebase-Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -206,9 +209,9 @@
 			);
 			name = MatchingApp;
 			packageProductDependencies = (
-				7C511E8125BEE36000D24A83 /* RxSwift */,
-				7C511E8325BEE36000D24A83 /* RxCocoa */,
-				7C511E8525BEE36000D24A83 /* RxRelay */,
+				7C2518FC25D7F48100AEA210 /* RxSwift */,
+				7C2518FE25D7F48100AEA210 /* RxCocoa */,
+				7C25190025D7F48100AEA210 /* RxRelay */,
 			);
 			productName = MatchingApp;
 			productReference = 7CD14F4D25BD636300C4F9E3 /* MatchingApp.app */;
@@ -238,7 +241,7 @@
 			);
 			mainGroup = 7CD14F4425BD636300C4F9E3;
 			packageReferences = (
-				7C511E8025BEE36000D24A83 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7C2518FB25D7F48100AEA210 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 7CD14F4E25BD636300C4F9E3 /* Products */;
 			projectDirPath = "";
@@ -317,6 +320,7 @@
 				7C2A5B0D25D51BEA00985F7C /* RegiserViewModel.swift in Sources */,
 				7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */,
 				7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */,
+				7C25190425D7F90A00AEA210 /* Firebase-Extension.swift in Sources */,
 				7CE875FF25C5830300E80B69 /* UIColor-Extension.swift in Sources */,
 				7CE8762125C6AC3000E80B69 /* UIButton-Extension.swift in Sources */,
 				7CD14F5325BD636300C4F9E3 /* SceneDelegate.swift in Sources */,
@@ -521,7 +525,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7C511E8025BEE36000D24A83 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		7C2518FB25D7F48100AEA210 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -532,19 +536,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7C511E8125BEE36000D24A83 /* RxSwift */ = {
+		7C2518FC25D7F48100AEA210 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7C511E8025BEE36000D24A83 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7C2518FB25D7F48100AEA210 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
-		7C511E8325BEE36000D24A83 /* RxCocoa */ = {
+		7C2518FE25D7F48100AEA210 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7C511E8025BEE36000D24A83 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7C2518FB25D7F48100AEA210 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		7C511E8525BEE36000D24A83 /* RxRelay */ = {
+		7C25190025D7F48100AEA210 /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7C511E8025BEE36000D24A83 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7C2518FB25D7F48100AEA210 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
 /* End XCSwiftPackageProductDependency section */
