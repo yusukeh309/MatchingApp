@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C07649025EB97F700A5C94C /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 7C07648F25EB97F700A5C94C /* PKHUD */; };
+		7C07649425EB9CD400A5C94C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07649325EB9CD400A5C94C /* User.swift */; };
 		7C0CF4DE25D29C5700B26377 /* RegisterTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */; };
 		7C0CF4E525D2A15600B26377 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CF4E425D2A15600B26377 /* RegisterButton.swift */; };
 		7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */; };
@@ -36,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C07649325EB9CD400A5C94C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7C0CF4DD25D29C5700B26377 /* RegisterTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTitleLabel.swift; sourceTree = "<group>"; };
 		7C0CF4E425D2A15600B26377 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
 		7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 				7C2518FF25D7F48100AEA210 /* RxCocoa in Frameworks */,
 				7C2518FD25D7F48100AEA210 /* RxSwift in Frameworks */,
 				7C25190125D7F48100AEA210 /* RxRelay in Frameworks */,
+				7C07649025EB97F700A5C94C /* PKHUD in Frameworks */,
 				C0CD91EFDDC0780F05D0DC75 /* Pods_MatchingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +99,14 @@
 				E45FA06D328E3E9B99F4EBC6 /* Pods-MatchingApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C07649225EB9CCA00A5C94C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C07649325EB9CD400A5C94C /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		7C2A5B0B25D51BD600985F7C /* ViewModel */ = {
@@ -179,6 +191,7 @@
 		7CD14F4F25BD636300C4F9E3 /* MatchingApp */ = {
 			isa = PBXGroup;
 			children = (
+				7C07649225EB9CCA00A5C94C /* Models */,
 				7C63C67125BD802B00350937 /* Extensions */,
 				7C8F675625BD7B3E006DBE6F /* Views */,
 				7C2A5B0B25D51BD600985F7C /* ViewModel */,
@@ -215,6 +228,7 @@
 				7C2518FC25D7F48100AEA210 /* RxSwift */,
 				7C2518FE25D7F48100AEA210 /* RxCocoa */,
 				7C25190025D7F48100AEA210 /* RxRelay */,
+				7C07648F25EB97F700A5C94C /* PKHUD */,
 			);
 			productName = MatchingApp;
 			productReference = 7CD14F4D25BD636300C4F9E3 /* MatchingApp.app */;
@@ -245,6 +259,7 @@
 			mainGroup = 7CD14F4425BD636300C4F9E3;
 			packageReferences = (
 				7C2518FB25D7F48100AEA210 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7C07648E25EB97F700A5C94C /* XCRemoteSwiftPackageReference "PKHUD" */,
 			);
 			productRefGroup = 7CD14F4E25BD636300C4F9E3 /* Products */;
 			projectDirPath = "";
@@ -323,6 +338,7 @@
 				7CE8761E25C6A74000E80B69 /* CardInfoLabel.swift in Sources */,
 				7C2A5B0D25D51BEA00985F7C /* RegiserViewModel.swift in Sources */,
 				7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */,
+				7C07649425EB9CD400A5C94C /* User.swift in Sources */,
 				7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */,
 				7C25190425D7F90A00AEA210 /* Firebase-Extension.swift in Sources */,
 				7CE875FF25C5830300E80B69 /* UIColor-Extension.swift in Sources */,
@@ -529,6 +545,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7C07648E25EB97F700A5C94C /* XCRemoteSwiftPackageReference "PKHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pkluz/PKHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 		7C2518FB25D7F48100AEA210 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
@@ -540,6 +564,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7C07648F25EB97F700A5C94C /* PKHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C07648E25EB97F700A5C94C /* XCRemoteSwiftPackageReference "PKHUD" */;
+			productName = PKHUD;
+		};
 		7C2518FC25D7F48100AEA210 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7C2518FB25D7F48100AEA210 /* XCRemoteSwiftPackageReference "RxSwift" */;
