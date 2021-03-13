@@ -17,6 +17,9 @@
 		7C25190125D7F48100AEA210 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7C25190025D7F48100AEA210 /* RxRelay */; };
 		7C25190425D7F90A00AEA210 /* Firebase-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25190325D7F90A00AEA210 /* Firebase-Extension.swift */; };
 		7C2A5B0D25D51BEA00985F7C /* RegiserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A5B0C25D51BEA00985F7C /* RegiserViewModel.swift */; };
+		7C44800025FD60B8003B7D99 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C447FFF25FD60B8003B7D99 /* ProfileViewController.swift */; };
+		7C44800625FD642B003B7D99 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44800525FD642B003B7D99 /* ProfileImageView.swift */; };
+		7C44800A25FD6563003B7D99 /* ProfileLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44800925FD6563003B7D99 /* ProfileLabel.swift */; };
 		7C450CDE25C2D3C200088881 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C450CDD25C2D3C200088881 /* CardView.swift */; };
 		7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */; };
 		7C617BC525C81DCE00D4F32F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */; };
@@ -44,6 +47,9 @@
 		7C133A9325C02FFB00BC7CBC /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		7C25190325D7F90A00AEA210 /* Firebase-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase-Extension.swift"; sourceTree = "<group>"; };
 		7C2A5B0C25D51BEA00985F7C /* RegiserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiserViewModel.swift; sourceTree = "<group>"; };
+		7C447FFF25FD60B8003B7D99 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7C44800525FD642B003B7D99 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		7C44800925FD6563003B7D99 /* ProfileLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLabel.swift; sourceTree = "<group>"; };
 		7C450CDD25C2D3C200088881 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
 		7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -117,6 +123,15 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		7C44800425FD641A003B7D99 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7C44800525FD642B003B7D99 /* ProfileImageView.swift */,
+				7C44800925FD6563003B7D99 /* ProfileLabel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		7C617BD725C8238700D4F32F /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +172,7 @@
 				7CD14F5425BD636300C4F9E3 /* HomeViewController.swift */,
 				7C617BD425C820AD00D4F32F /* RegisterViewController.swift */,
 				7C64438225E112F1003C381D /* LoginViewController.swift */,
+				7C447FFF25FD60B8003B7D99 /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -164,6 +180,7 @@
 		7C8F675625BD7B3E006DBE6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7C44800425FD641A003B7D99 /* Profile */,
 				7C617BD825C8239300D4F32F /* Register */,
 				7C617BD725C8238700D4F32F /* Home */,
 			);
@@ -335,6 +352,7 @@
 				7CD14F5525BD636300C4F9E3 /* HomeViewController.swift in Sources */,
 				7C0CF4DE25D29C5700B26377 /* RegisterTitleLabel.swift in Sources */,
 				7C64438325E112F1003C381D /* LoginViewController.swift in Sources */,
+				7C44800A25FD6563003B7D99 /* ProfileLabel.swift in Sources */,
 				7CE8761E25C6A74000E80B69 /* CardInfoLabel.swift in Sources */,
 				7C2A5B0D25D51BEA00985F7C /* RegiserViewModel.swift in Sources */,
 				7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */,
@@ -346,8 +364,10 @@
 				7CD14F5325BD636300C4F9E3 /* SceneDelegate.swift in Sources */,
 				7C8F675825BD7B4E006DBE6F /* BottomControlView.swift in Sources */,
 				7C450CDE25C2D3C200088881 /* CardView.swift in Sources */,
+				7C44800625FD642B003B7D99 /* ProfileImageView.swift in Sources */,
 				7C617BDA25C823A800D4F32F /* RegisterTextField.swift in Sources */,
 				7C617BD525C820AD00D4F32F /* RegisterViewController.swift in Sources */,
+				7C44800025FD60B8003B7D99 /* ProfileViewController.swift in Sources */,
 				7CE8762425C6ACAE00E80B69 /* CardImageView.swift in Sources */,
 				7C63C66F25BD802600350937 /* UIImage-Extension.swift in Sources */,
 			);
