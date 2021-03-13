@@ -20,6 +20,8 @@
 		7C44800025FD60B8003B7D99 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C447FFF25FD60B8003B7D99 /* ProfileViewController.swift */; };
 		7C44800625FD642B003B7D99 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44800525FD642B003B7D99 /* ProfileImageView.swift */; };
 		7C44800A25FD6563003B7D99 /* ProfileLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44800925FD6563003B7D99 /* ProfileLabel.swift */; };
+		7C44800F25FD6FC9003B7D99 /* ProfileTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44800E25FD6FC9003B7D99 /* ProfileTextField.swift */; };
+		7C44801325FD7444003B7D99 /* InfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44801225FD7444003B7D99 /* InfoCollectionViewCell.swift */; };
 		7C450CDE25C2D3C200088881 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C450CDD25C2D3C200088881 /* CardView.swift */; };
 		7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */; };
 		7C617BC525C81DCE00D4F32F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */; };
@@ -50,6 +52,8 @@
 		7C447FFF25FD60B8003B7D99 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7C44800525FD642B003B7D99 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 		7C44800925FD6563003B7D99 /* ProfileLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLabel.swift; sourceTree = "<group>"; };
+		7C44800E25FD6FC9003B7D99 /* ProfileTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTextField.swift; sourceTree = "<group>"; };
+		7C44801225FD7444003B7D99 /* InfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C450CDD25C2D3C200088881 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7C511E7D25BEDEEF00D24A83 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
 		7C617BC425C81DCE00D4F32F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -128,8 +132,17 @@
 			children = (
 				7C44800525FD642B003B7D99 /* ProfileImageView.swift */,
 				7C44800925FD6563003B7D99 /* ProfileLabel.swift */,
+				7C44800E25FD6FC9003B7D99 /* ProfileTextField.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		7C44801125FD7431003B7D99 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7C44801225FD7444003B7D99 /* InfoCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		7C617BD725C8238700D4F32F /* Home */ = {
@@ -208,6 +221,7 @@
 		7CD14F4F25BD636300C4F9E3 /* MatchingApp */ = {
 			isa = PBXGroup;
 			children = (
+				7C44801125FD7431003B7D99 /* Cells */,
 				7C07649225EB9CCA00A5C94C /* Models */,
 				7C63C67125BD802B00350937 /* Extensions */,
 				7C8F675625BD7B3E006DBE6F /* Views */,
@@ -347,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C44801325FD7444003B7D99 /* InfoCollectionViewCell.swift in Sources */,
 				7C0CF4E525D2A15600B26377 /* RegisterButton.swift in Sources */,
 				7C511E7E25BEDEEF00D24A83 /* TopControlView.swift in Sources */,
 				7CD14F5525BD636300C4F9E3 /* HomeViewController.swift in Sources */,
@@ -358,6 +373,7 @@
 				7CD14F5125BD636300C4F9E3 /* AppDelegate.swift in Sources */,
 				7C07649425EB9CD400A5C94C /* User.swift in Sources */,
 				7C133A9425C02FFB00BC7CBC /* UIView-Extension.swift in Sources */,
+				7C44800F25FD6FC9003B7D99 /* ProfileTextField.swift in Sources */,
 				7C25190425D7F90A00AEA210 /* Firebase-Extension.swift in Sources */,
 				7CE875FF25C5830300E80B69 /* UIColor-Extension.swift in Sources */,
 				7CE8762125C6AC3000E80B69 /* UIButton-Extension.swift in Sources */,
