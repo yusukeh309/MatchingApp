@@ -13,6 +13,10 @@ class InfoCollectionViewCell: UICollectionViewCell {
         didSet {
             nameTextField.text = user?.name
             emailTextField.text = user?.email
+            ageTextField.text = user?.age
+            residenceTextField.text = user?.residence
+            hobbyTextField.text = user?.hobby
+            introductionTextField.text = user?.introduction
         }
     }
     
