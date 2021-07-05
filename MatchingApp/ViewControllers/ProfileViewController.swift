@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import FirebaseFirestore
+import FirebaseStorage
 
 class ProfileViewController: UIViewController {
     
@@ -15,6 +16,7 @@ class ProfileViewController: UIViewController {
     
     var user: User?
     private let cellId = "cellId"
+    private var hasChangedImage = false
     
     private var name = ""
     private var age = ""
@@ -53,20 +55,41 @@ class ProfileViewController: UIViewController {
         saveButton.rx.tap
             .asDriver()
             .drive { [weak self] _ in
+                guard let self = self else { return }
                 
                 let dic = [
-                    "name": self?.name,
-                    "age": self?.age,
-                    "email": self?.email,
-                    "residence": self?.residence,
-                    "hobby": self?.hobby,
-                    "introduction": self?.introduction
+                    "name": self.name,
+                    "age": self.age,
+                    "email": self.email,
+                    "residence": self.residence,
+                    "hobby": self.hobby,
+                    "introduction": self.introduction
                 ]
                 
-                Firestore.updateUserInfo(dic: dic) {
-                    print("更新完了")
+                if self.hasChangedImage {
+                    // 画像を保存する処理
+                    guard let image = self.profileImageView.image else { return }
+                    Storage.addProfileImageToStorage(image: image, dic: dic) {
+                        
+                    }
+                    
+                } else {
+                    Firestore.updateUserInfo(dic: dic) {
+                        print("更新完了")
+                    }
+
                 }
                 
+            }
+            .disposed(by: disposeBag)
+        
+        
+        profileEditButton.rx.tap
+            .asDriver()
+            .drive { [weak self] _ in
+                let pickerView = UIImagePickerController()
+                pickerView.delegate = self
+                self?.present(pickerView, animated: true, completion: nil)
             }
             .disposed(by: disposeBag)
     }
@@ -93,6 +116,25 @@ class ProfileViewController: UIViewController {
         
         // ユーザー情報を反映
         nameLabel.text = user?.name
+    }
+    
+}
+
+// MARK: - UIImagePickerControllerDelegate, UINavigationControllerDelegate
+extension ProfileViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+ 
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        if let image = info[.originalImage] as? UIImage {
+            profileImageView.image = image.withRenderingMode(.alwaysOriginal)
+        }
+        
+        profileImageView.contentMode = .scaleAspectFill
+        profileImageView.layer.cornerRadius = 90
+        profileImageView.layer.masksToBounds = true
+        
+        hasChangedImage = true
+        self.dismiss(animated: true, completion: nil)
     }
     
 }
