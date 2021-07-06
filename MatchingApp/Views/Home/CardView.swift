@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class CardView: UIView {
     
@@ -111,6 +112,9 @@ class CardView: UIView {
         nameLabel.text = user.name
         introductionLabel.text = user.email
         
+        if let url = URL(string: user.profileImageUrl) {
+            cardImageView.sd_setImage(with: url)
+        }
     }
     
     required init?(coder: NSCoder) {
