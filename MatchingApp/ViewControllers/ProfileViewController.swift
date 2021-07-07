@@ -67,7 +67,8 @@ class ProfileViewController: UIViewController {
                     "email": self.email,
                     "residence": self.residence,
                     "hobby": self.hobby,
-                    "introduction": self.introduction
+                    "introduction": self.introduction,
+                    "uid": Auth.auth().currentUser?.uid
                 ]
                 
                 if self.hasChangedImage {

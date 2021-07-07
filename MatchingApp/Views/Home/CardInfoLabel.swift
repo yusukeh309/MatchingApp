@@ -26,11 +26,10 @@ class CardInfoLabel: UILabel {
     }
     
     // その他のtextColorが白のラベル
-    init(text: String, font: UIFont) {
+    init(font: UIFont) {
         super.init(frame: .zero)
         self.font = font
         textColor = .white
-        self.text = text
     }
     
     required init?(coder: NSCoder) {

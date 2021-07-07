@@ -15,10 +15,10 @@ class CardView: UIView {
     // MARK: UIViews
     private let cardImageView = CardImageView(frame: .zero)
     private let infoButton = UIButton(type: .system).createCardInfoButton()
-    private let nameLabel = CardInfoLabel(text: "Taro, 22", font: .systemFont(ofSize: 40, weight: .heavy))
-    private let residenceLabel = CardInfoLabel(text: "日本、大阪", font: .systemFont(ofSize: 20, weight: .regular))
-    private let hobbyLabel = CardInfoLabel(text: "ランニング", font: .systemFont(ofSize: 25, weight: .regular))
-    private let introductionLabel = CardInfoLabel(text: "走り回るのが大好きです", font: .systemFont(ofSize: 25, weight: .regular))
+    private let nameLabel = CardInfoLabel(font: .systemFont(ofSize: 40, weight: .heavy))
+    private let residenceLabel = CardInfoLabel(font: .systemFont(ofSize: 20, weight: .regular))
+    private let hobbyLabel = CardInfoLabel(font: .systemFont(ofSize: 25, weight: .regular))
+    private let introductionLabel = CardInfoLabel(font: .systemFont(ofSize: 25, weight: .regular))
     private let goodLabel = CardInfoLabel(text: "GOOD", textColor: .rgb(red: 137, green: 223, blue: 86))
     private let nopeLabel = CardInfoLabel(text: "NOPE", textColor: .rgb(red: 222, green: 110, blue: 110))
     
@@ -110,7 +110,9 @@ class CardView: UIView {
         
         // ユーザー情報をViewに反映
         nameLabel.text = user.name
-        introductionLabel.text = user.email
+        introductionLabel.text = user.introduction
+        hobbyLabel.text = user.hobby
+        residenceLabel.text = user.residence
         
         if let url = URL(string: user.profileImageUrl) {
             cardImageView.sd_setImage(with: url)
